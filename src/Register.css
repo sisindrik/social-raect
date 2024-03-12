@@ -1,0 +1,19 @@
+.Register-model {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black overlay */
+}
+
+.Register-model-content {
+  margin: 5% auto; /* Centering the modal vertically */
+  padding: 40px;
+  width: 500px;
+  background-color: bisque; /* Light orange background */
+  border: 1px solid silver;
+  border-radius: 10px;
+}
